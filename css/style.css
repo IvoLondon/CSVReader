@@ -28,7 +28,7 @@ header {
     text-align: center;
     text-transform: uppercase; }
 
-section {
+section.insertFile {
   background-color: #004d68;
   padding: 1.5em 0;
   text-align: center;
@@ -43,6 +43,12 @@ main {
       color: #000; }
     main table tbody td {
       color: #004d68; }
+
+section.insertCharts {
+  background-color: #004d68;
+  padding: 1.5em 0;
+  text-align: center;
+  color: #fff; }
 
 footer {
   color: #fff;
