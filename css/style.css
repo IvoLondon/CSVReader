@@ -1,0 +1,57 @@
+/***************** colors *****************/
+/***************** general *****************/
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Bold.ttf"); }
+body {
+  background-color: #00212d;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 14px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none; }
+
+/***************** Page *****************/
+header {
+  color: #fff;
+  background-color: #00212d;
+  padding: 3em 0 2em; }
+  header h1 {
+    text-align: center;
+    text-transform: uppercase; }
+
+section {
+  background-color: #004d68;
+  padding: 1.5em 0;
+  text-align: center;
+  color: #fff; }
+
+main {
+  padding: 2em 0 3em;
+  background-color: #f0fbff; }
+  main table {
+    width: 100%; }
+    main table thead td {
+      color: #000; }
+    main table tbody td {
+      color: #004d68; }
+
+footer {
+  color: #fff;
+  background-color: #00212d;
+  padding: 2em 0 3em; }
+  footer a, footer p {
+    color: #fff;
+    text-align: center; }
+  footer a:hover {
+    color: #004d68; }
+
+/*# sourceMappingURL=style.css.map */

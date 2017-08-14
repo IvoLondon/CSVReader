@@ -1,0 +1,91 @@
+/***************** colors *****************/
+$primaryColor:#00212d;
+$secondaryColor:#004d68;
+$thirdColor:#f0fbff;
+$neutralColor:#fff;
+
+
+/***************** general *****************/
+@font-face {
+	font-family: 'Lato';
+	src:url('../fonts/Lato-Bold.ttf')
+}
+body {
+	background-color:$primaryColor;
+	font-family: 'Lato', sans-serif;
+	margin:0;
+	font-size:14px;
+}
+.container {
+	max-width:1200px;
+	margin:0 auto;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration:none;
+}
+
+
+/***************** Page *****************/
+header {
+	color:$neutralColor;
+	background-color:$primaryColor;
+	padding:3em 0 2em;
+	h1 {
+		text-align:center;
+		text-transform:uppercase;
+	}
+}
+section {
+	background-color:$secondaryColor;
+	padding:1.5em 0;
+	text-align:center;
+	color:$neutralColor;
+}
+main {
+	padding:2em 0 3em;
+	background-color:$thirdColor;
+	table {
+		width:100%;
+		thead {
+			td {
+				color:#000;
+			}
+		}
+		tbody {
+			td {
+				color:$secondaryColor;
+			}
+		}
+	}
+}
+
+footer {
+	color:#fff;
+	background-color:$primaryColor;
+	padding:2em 0 3em;
+	a, p {
+		color:$neutralColor;
+		text-align:center;
+	}
+	a:hover {
+		color:$secondaryColor;
+	}
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+	
+}
+@media screen and (min-width:992px) {
+	
+}
+@media screen and (min-width:1200px) {
+	
+}
